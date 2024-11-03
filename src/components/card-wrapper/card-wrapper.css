@@ -1,0 +1,44 @@
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px 60px;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  gap: 0px !important;
+  padding: 0px;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover; 
+  /* border-radius: 10px; */
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: goldenrod;
+  padding: 10px 0;
+}
+
+.card-name h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
